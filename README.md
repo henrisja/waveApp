@@ -1,2 +1,2 @@
 # waveApp
-Project to create dynamic waves. 
+Project to create procedurally generated wave patterns
