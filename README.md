@@ -1,6 +1,4 @@
 # waveApp
-This is my original attempt at writing a program in Java that will use a polynomial curve fitter from 
-the apache math library in order to procedurally generate 3-D wave patterns. Inspired by the work
-of @DarelCarey. Code and screenshots of some successful runs are included in this folder. Currently
-attempting to write an improved version in JavaScript to post on my website. Main upgrades will 
-be in collision (when two polynomial curves cross over) handling. 
+As a way to brush up on Java I set out to create this program inspired by the work of Darel Carey (@DarelCarey on instagram). The goal is to create a 2-D pattern of straight lines whose peaks and valleys follow a curve that makes them appear 3-D. I started by randomely generating the first 3 rows and then used the Apache Math Library's 'Polynomial Curve Fitter' in order to continue these forms down the rest of the image. The code is still rough and doesn't consistently produce good results, the main point of difficulty was handling what happens when these polynomial curves cross paths and figuring out how to merge or seperate them in a way that looked natural. However, I did produce several good results and am currently attempting to improve upon this and write it in javascript to post on my website.
+
+Code and screenshots of different runs are posted in this folder. Enjoy!
